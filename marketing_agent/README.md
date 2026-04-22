@@ -1,4 +1,4 @@
-# Group Number: 08D12
+# Group Number: 08 D12
 # Marketing Planning Assistant Agent
 
 An intelligent agent that takes a high-level marketing goal and autonomously breaks it into structured tasks, reasons through execution, validates tool availability, manages dependencies, schedules tasks, and generates a final marketing plan.
