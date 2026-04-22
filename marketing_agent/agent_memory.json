@@ -1,0 +1,109 @@
+{
+  "plans": [
+    {
+      "goal": "Analyze competitor ads",
+      "tasks": [
+        {
+          "task": "Identify top competitors in the industry.",
+          "tool": "get_competitors",
+          "agent_type": "Research"
+        },
+        {
+          "task": "Research and gather information on competitor ads, including platforms used, messaging, visuals, and target audience.",
+          "tool": "get_competitors",
+          "agent_type": "Research"
+        },
+        {
+          "task": "Analyze competitor ad performance metrics, such as engagement rates, click-through rates, and conversion rates.",
+          "tool": "get_competitors",
+          "agent_type": "Research"
+        },
+        {
+          "task": "Compare competitor ads to your own ads to identify strengths and weaknesses.",
+          "tool": "get_competitors",
+          "agent_type": "Content"
+        },
+        {
+          "task": "Develop a strategy based on the analysis to improve your own ad campaigns and stay competitive in the market.",
+          "tool": null,
+          "agent_type": "Strategy"
+        }
+      ],
+      "schedule": {
+        "Day 1": [
+          "Identify top competitors in the industry."
+        ],
+        "Day 2": [
+          "Research and gather information on competitor ads, including platforms used, messaging, visuals, and target audience."
+        ],
+        "Day 3": [
+          "Analyze competitor ad performance metrics, such as engagement rates, click-through rates, and conversion rates."
+        ],
+        "Day 4": [
+          "Compare competitor ads to your own ads to identify strengths and weaknesses."
+        ],
+        "Day 5": [
+          "Develop a strategy based on the analysis to improve your own ad campaigns and stay competitive in the market."
+        ]
+      },
+      "insights": [
+        "Identify top competitors in the industry.: ['BrandA', 'BrandB', 'BrandC']",
+        "Research and gather information on competitor ads, including platforms used, messaging, visuals, and target audience.: ['BrandA', 'BrandB', 'BrandC']",
+        "Analyze competitor ad performance metrics, such as engagement rates, click-through rates, and conversion rates.: ['BrandA', 'BrandB', 'BrandC']",
+        "Compare competitor ads to your own ads to identify strengths and weaknesses.: ['BrandA', 'BrandB', 'BrandC']",
+        "Develop a strategy based on the analysis to improve your own ad campaigns and stay competitive in the market.: Tool not available."
+      ],
+      "timestamp": "2026-04-20T10:22:45.871245"
+    }
+  ],
+  "tool_logs": [
+    {
+      "tool": "get_competitors",
+      "input": null,
+      "output": [
+        "BrandA",
+        "BrandB",
+        "BrandC"
+      ],
+      "status": "success",
+      "error": null,
+      "timestamp": "2026-04-20T10:22:45.868276"
+    },
+    {
+      "tool": "get_competitors",
+      "input": null,
+      "output": [
+        "BrandA",
+        "BrandB",
+        "BrandC"
+      ],
+      "status": "success",
+      "error": null,
+      "timestamp": "2026-04-20T10:22:45.869127"
+    },
+    {
+      "tool": "get_competitors",
+      "input": null,
+      "output": [
+        "BrandA",
+        "BrandB",
+        "BrandC"
+      ],
+      "status": "success",
+      "error": null,
+      "timestamp": "2026-04-20T10:22:45.869435"
+    },
+    {
+      "tool": "get_competitors",
+      "input": null,
+      "output": [
+        "BrandA",
+        "BrandB",
+        "BrandC"
+      ],
+      "status": "success",
+      "error": null,
+      "timestamp": "2026-04-20T10:22:45.870249"
+    }
+  ]
+}
